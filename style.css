@@ -2,15 +2,12 @@
 
 
 .container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+ display: flex; 
+ flex-direction: column;
 }
 .olga {
   width: 84%;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+  padding-left: 100px;
 }
 
 header {
