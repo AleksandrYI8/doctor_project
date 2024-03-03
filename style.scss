@@ -125,8 +125,8 @@ header {
 
         .sercle {
             position: absolute;
-            top: 596px;
-            left: 385px;
+            top: 570px;
+            left: 403px;
         }
     }
 
@@ -180,7 +180,7 @@ header {
         width: 335px;
         position: absolute;
         top: 305px;
-    left: -80px;
+        left: -80px;
 
         .first {
             display: flex;
@@ -262,5 +262,117 @@ header {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+.dots_bg {
+    position: absolute;
+    top: 75px;
+    right: -5px;
+}
+
+.sercle_bg {
+    position: absolute;
+    top: 320px;
+    right: -80px;
+}
+
+.lines_bg {
+    position: absolute;
+    top: 540px;
+    left: -75px;
+}
+
+.therd_main {
+    display: flex;
+    gap: 3%;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -130px;
+    margin-bottom: 100px;
+
+    .left {
+        width: 35%;
+
+        position: relative;
+
+        .main_img {
+            border-radius: 50%;
+            margin-left: 63px;
+            margin-top: 35px;
+        }
+
+        .img_bg_dots {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            z-index: -1;
+        }
+
+        .img_bg_yel_sercle {
+            position: absolute;
+            left: 20px;
+            top: 95px;
+        }
+
+        .img_bg_blue_sercle {
+            position: absolute;
+            left: 78px;
+            top: 16px;
+        }
+
+    }
+
+    .right {
+        width: 63%;
+        padding-top: 45px;
+
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 1px;
+            text-align: left;
+            margin-bottom: 5px;
+
+        }
+
+        h2 {
+            font-size: 64px;
+            font-weight: 400;
+            line-height: 93px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+
+        .line{
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 30px;
+
+        }
+
+        a {
+            text-decoration: 0;
+            font-family: DM Sans;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #1254FF;
+            text-align: center;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
     }
 }
