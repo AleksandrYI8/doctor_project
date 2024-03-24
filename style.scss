@@ -290,7 +290,7 @@ header {
     display: flex;
     gap: 3%;
     width: 80%;
-   /*  max-width: 1215px; */
+    /*  max-width: 1215px; */
     margin: 0 auto;
     margin-top: -130px;
     margin-bottom: 200px;
@@ -391,6 +391,7 @@ header {
 
 .fourth_main {
     position: relative;
+    margin-bottom: 100px;
 
     .up {
         margin-bottom: 30px;
@@ -430,7 +431,7 @@ header {
             right: 383px;
         }
 
-       
+
     }
 
     .down {
@@ -471,30 +472,119 @@ header {
             }
         }
     }
-    .bg_grey_dots{
+
+    .bg_grey_dots {
         position: absolute;
         right: 0px;
         top: 250px;
 
     }
 
-    .bg_yellow_sercle{
+    .bg_yellow_sercle {
         position: absolute;
         right: 0;
         top: 500px;
     }
 
-    .blue_sercle{
+    .blue_sercle {
         position: absolute;
         left: 0;
         top: 400px;
     }
 
-    .bg_yellow_sercle_sec{
+    .bg_yellow_sercle_sec {
         position: absolute;
         left: 0;
         top: 600px;
     }
 
-  
+
+}
+
+.fivth_main {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+
+    h2 {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .line {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .item {
+        width: 270px;
+        padding: 20px;
+        border-radius: 16px;
+        background: #FFF0D2;
+
+
+
+        h3 {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 31.25px;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .top_p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27.9px;
+            text-align: center;
+            opacity: .6;
+            margin-bottom: 60px;
+
+        }
+
+        .p_sec {
+            position: relative;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 27.9px;
+            text-align: left;
+            margin-bottom: 10px;
+            padding-left: 30px;
+        }
+
+        .p_sec::before{
+            content: url(./public/icn/ok.svg);
+            position: absolute;
+            left: -1px;
+        }
+
+        button {
+            margin-top: 100px;
+            width: 100%;
+            padding: 16px 24px 16px 24px;
+            border: 0;
+            border-radius: 16px;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 26.04px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background: #FFB21E;
+            gap: 10px;
+        }
+    }
+
 }
